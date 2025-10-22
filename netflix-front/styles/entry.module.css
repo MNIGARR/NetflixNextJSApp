@@ -1,0 +1,208 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.header {
+  position: relative;
+  display: flex;
+  padding-inline: 3%;
+  padding-top: 3%;
+  justify-content: space-between;  
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+.button {
+    background-color: #E50914;
+    color: white;
+    padding-inline: 3%;
+    padding-block: 0.5%;
+    border-radius: 6px;
+    font-family: var( - font-sans);
+    cursor: pointer;
+}
+.enterance {
+    position: absolute;
+    margin-inline: 20%;
+    margin-block: 10%;
+    padding-inline: 5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.heading {
+    justify-content: center;
+    text-wrap: revert;
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 60px;
+}
+.membership {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lastInfo {
+    font-size: 16px;
+    padding-bottom: 3%;
+}
+.input {
+    border-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 67%;
+    padding: 1.5%;
+}
+.startButton {
+    background-color: #E50914;
+    color: white;
+    padding-inline: 5%;
+    padding-block: 1.8%;
+    margin-left: 1%;
+    border-radius: 6px;
+    font-family: var( - font-sans);
+    cursor: pointer;
+}
+
+.components {
+  background-color: #000;
+  padding-inline: 5%;
+}
+.movies {
+  margin-top: 45%;
+  padding-top: 5%;
+}
+.trendingSection {
+  color: white;
+}
+.trendingTitle {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.chooseButton {
+  background-color: red;
+}
+.carousel {
+  display: flex;
+  gap: 1rem;
+  padding-inline: 10%;
+  padding-bottom: 1rem;
+}
+.carouselItem {
+  flex: 0 0 auto;
+}
+.poster {
+  border-radius: 8px;
+}
+
+.featuresHeading {
+  color: white;
+  padding: 32px;
+}
+
+.features {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 32px;
+  padding-block: 1px;
+  background-color: #000;
+  color: white;
+  justify-content: center;
+}
+.featureCard {
+  flex: 1 1 2px;
+  max-width: 300px;
+  padding: 16px;
+  border-radius: 8px;
+  background: linear-gradient(136.15deg, rgb(25, 34, 71) 0%,rgb(33, 14, 23));
+}
+.featuresTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-block: 5%;
+}
+.featuresIcon {
+  justify-items: right;
+  padding-top: 10%;
+  margin-left: 60%;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 32px;
+}
+.faqItem {
+  margin-bottom: 1rem;
+}
+.faqItem button {
+  background: #333;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.faqItem p {
+  background: #222;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+.footer {
+  padding: 2rem;
+  background: #000;
+  color: #777;
+  text-align: center;
+}
+.footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footerLinks a {
+  color: #777;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.languageSelector button {
+  background: transparent;
+  border: 1px solid #777;
+  color: #777;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carouselButton {
+  position: absolute;
+  top: 35%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  z-index: 2;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.carouselButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carouselButton:first-of-type {
+  left: 0;
+}
+.carouselButton:last-of-type {
+  right: 0;
+}

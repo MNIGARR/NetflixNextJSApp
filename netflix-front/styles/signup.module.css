@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.cardWrapper {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.68);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 24rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  margin-top: 0.75rem;
+}
+
+.button {
+  width: 100%;
+  background-color: #dc2626;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #b91c1c;
+}
+
+.signInText {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+}
+
+.linkButton {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
